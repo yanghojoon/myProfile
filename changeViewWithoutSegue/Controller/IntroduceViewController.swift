@@ -17,7 +17,6 @@ class IntroduceViewController: UIViewController {
         super.viewDidLoad()
         fetchData()
         setupUI()
-        
     }
     
     func fetchData() {
