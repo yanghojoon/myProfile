@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JD7-jp-olf">
-                                <rect key="frame" x="162.5" y="705" width="89" height="31"/>
+                                <rect key="frame" x="162.5" y="698.5" width="89" height="44.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="자세히 보기"/>
                                 <connections>
                                     <action selector="touchUpDescriptionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QRq-EP-I0v"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Yang Hojoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-rZ-aVJ">
-                                <rect key="frame" x="159" y="193" width="97" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang Hojoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-rZ-aVJ">
+                                <rect key="frame" x="158.5" y="188" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,6 +38,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Grp-rZ-aVJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="748-Ar-bP9"/>
+                            <constraint firstItem="Grp-rZ-aVJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Fpp-kV-Ryq"/>
                             <constraint firstItem="N2N-fe-osW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SB7-pK-JWP"/>
                             <constraint firstItem="N2N-fe-osW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pRW-ql-mrN"/>
                             <constraint firstItem="JD7-jp-olf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vxd-nM-aVK"/>

@@ -15,9 +15,15 @@
 		DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311327644ED500674EAB /* LaunchScreen.storyboard */; };
 		DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */; };
 		DE89312227645FC500674EAB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312127645FC500674EAB /* TableViewController.swift */; };
-		DE8931272764684200674EAB /* Description.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8931262764684200674EAB /* Description.storyboard */; };
-		DE89312B2764688200674EAB /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312A2764688200674EAB /* DescriptionViewController.swift */; };
+		DE8931272764684200674EAB /* School.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8931262764684200674EAB /* School.storyboard */; };
+		DE89312B2764688200674EAB /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312A2764688200674EAB /* SchoolViewController.swift */; };
 		DE89312E27646DAE00674EAB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312D27646DAE00674EAB /* Profile.swift */; };
+		DE8931322764798F00674EAB /* HobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8931312764798F00674EAB /* HobbyViewController.swift */; };
+		DE893134276479B000674EAB /* YagomAcademyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE893133276479B000674EAB /* YagomAcademyViewController.swift */; };
+		DE893136276479BA00674EAB /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE893135276479BA00674EAB /* ExperienceViewController.swift */; };
+		DE893138276479C900674EAB /* Hobby.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE893137276479C900674EAB /* Hobby.storyboard */; };
+		DE89313A276479E700674EAB /* YagomAcademy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE893139276479E700674EAB /* YagomAcademy.storyboard */; };
+		DE89313C276479F100674EAB /* Experience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89313B276479F100674EAB /* Experience.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +37,15 @@
 		DE89311627644ED500674EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		DE89312127645FC500674EAB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		DE8931262764684200674EAB /* Description.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Description.storyboard; sourceTree = "<group>"; };
-		DE89312A2764688200674EAB /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		DE8931262764684200674EAB /* School.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = School.storyboard; sourceTree = "<group>"; };
+		DE89312A2764688200674EAB /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
 		DE89312D27646DAE00674EAB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DE8931312764798F00674EAB /* HobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyViewController.swift; sourceTree = "<group>"; };
+		DE893133276479B000674EAB /* YagomAcademyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YagomAcademyViewController.swift; sourceTree = "<group>"; };
+		DE893135276479BA00674EAB /* ExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		DE893137276479C900674EAB /* Hobby.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hobby.storyboard; sourceTree = "<group>"; };
+		DE893139276479E700674EAB /* YagomAcademy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YagomAcademy.storyboard; sourceTree = "<group>"; };
+		DE89313B276479F100674EAB /* Experience.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experience.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +94,10 @@
 			children = (
 				DE89310E27644ED400674EAB /* Main.storyboard */,
 				DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */,
-				DE8931262764684200674EAB /* Description.storyboard */,
+				DE8931262764684200674EAB /* School.storyboard */,
+				DE893137276479C900674EAB /* Hobby.storyboard */,
+				DE893139276479E700674EAB /* YagomAcademy.storyboard */,
+				DE89313B276479F100674EAB /* Experience.storyboard */,
 				DE89311327644ED500674EAB /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -93,7 +108,10 @@
 			children = (
 				DE89310C27644ED400674EAB /* MainViewController.swift */,
 				DE89312127645FC500674EAB /* TableViewController.swift */,
-				DE89312A2764688200674EAB /* DescriptionViewController.swift */,
+				DE89312A2764688200674EAB /* SchoolViewController.swift */,
+				DE8931312764798F00674EAB /* HobbyViewController.swift */,
+				DE893133276479B000674EAB /* YagomAcademyViewController.swift */,
+				DE893135276479BA00674EAB /* ExperienceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,10 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */,
-				DE8931272764684200674EAB /* Description.storyboard in Resources */,
+				DE8931272764684200674EAB /* School.storyboard in Resources */,
+				DE89313A276479E700674EAB /* YagomAcademy.storyboard in Resources */,
 				DE89311227644ED500674EAB /* Assets.xcassets in Resources */,
+				DE89313C276479F100674EAB /* Experience.storyboard in Resources */,
 				DE89311027644ED400674EAB /* Main.storyboard in Resources */,
 				DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */,
+				DE893138276479C900674EAB /* Hobby.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,9 +202,12 @@
 			files = (
 				DE89310D27644ED400674EAB /* MainViewController.swift in Sources */,
 				DE89312E27646DAE00674EAB /* Profile.swift in Sources */,
+				DE8931322764798F00674EAB /* HobbyViewController.swift in Sources */,
+				DE893136276479BA00674EAB /* ExperienceViewController.swift in Sources */,
 				DE89310927644ED400674EAB /* AppDelegate.swift in Sources */,
 				DE89310B27644ED400674EAB /* SceneDelegate.swift in Sources */,
-				DE89312B2764688200674EAB /* DescriptionViewController.swift in Sources */,
+				DE89312B2764688200674EAB /* SchoolViewController.swift in Sources */,
+				DE893134276479B000674EAB /* YagomAcademyViewController.swift in Sources */,
 				DE89312227645FC500674EAB /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

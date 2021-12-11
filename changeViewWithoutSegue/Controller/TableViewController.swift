@@ -37,3 +37,18 @@ extension TableViewController {
         return cell
     }
 }
+
+// MARK: - Delegate
+extension TableViewController {
+    // , "취미", "야곰 아카데미", "경력"
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedProfile = self.profile.data[indexPath.row]
+        
+        if selectedProfile == "출신 학교" {
+            let schoolStoryboard = UIStoryboard(name: "School", bundle: nil)
+            let schoolViewController = schoolStoryboard.instantiateViewController(withIdentifier: "School")
+            
+            self.navigationController?.pushViewController(schoolViewController, animated: true)
+        }
+    }
+}

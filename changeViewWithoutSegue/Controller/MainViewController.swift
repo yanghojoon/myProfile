@@ -15,6 +15,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         setupConstraint()
+        setupUI()
     }
 
     private func setupConstraint() {
@@ -30,6 +31,9 @@ class MainViewController: UIViewController {
         descriptionButton?.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -60).isActive = true
         
         nameLabel?.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
+    }
+    
+    private func setupUI() {
         nameLabel?.font = .preferredFont(forTextStyle: .largeTitle)
     }
     
