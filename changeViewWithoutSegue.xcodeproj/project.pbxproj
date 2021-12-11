@@ -13,6 +13,7 @@
 		DE89311027644ED400674EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89310E27644ED400674EAB /* Main.storyboard */; };
 		DE89311227644ED500674EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE89311127644ED500674EAB /* Assets.xcassets */; };
 		DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311327644ED500674EAB /* LaunchScreen.storyboard */; };
+		DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE89311127644ED500674EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE89311427644ED500674EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE89311627644ED500674EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DE89310A27644ED400674EAB /* SceneDelegate.swift */,
 				DE89310C27644ED400674EAB /* ViewController.swift */,
 				DE89310E27644ED400674EAB /* Main.storyboard */,
+				DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */,
 				DE89311127644ED500674EAB /* Assets.xcassets */,
 				DE89311327644ED500674EAB /* LaunchScreen.storyboard */,
 				DE89311627644ED500674EAB /* Info.plist */,
@@ -128,6 +131,7 @@
 				DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */,
 				DE89311227644ED500674EAB /* Assets.xcassets in Resources */,
 				DE89311027644ED400674EAB /* Main.storyboard in Resources */,
+				DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

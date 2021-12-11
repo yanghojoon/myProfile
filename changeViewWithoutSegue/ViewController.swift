@@ -8,10 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var descriptionButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        descriptionButton?.translatesAutoresizingMaskIntoConstraints = false
+        
+        let safeArea = view.safeAreaLayoutGuide
+        
+        let safeBottomAnchor = descriptionButton?.bottomAnchor.constraint(equalTo: safeArea.bottomAnchor)
+        safeBottomAnchor?.isActive = true
+        safeBottomAnchor?.priority = .defaultHigh
+        
+        descriptionButton?.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -30).isActive = true
     }
 
 
