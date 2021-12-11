@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupConstraint()
+    }
+
+    func setupConstraint() {
         descriptionButton?.translatesAutoresizingMaskIntoConstraints = false
         nameLabel?.translatesAutoresizingMaskIntoConstraints = false
         
@@ -24,11 +28,10 @@ class ViewController: UIViewController {
         safeBottomAnchor?.isActive = true
         safeBottomAnchor?.priority = .defaultHigh
         
-        descriptionButton?.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -30).isActive = true
+        descriptionButton?.bottomAnchor.constraint(lessThanOrEqualTo: view.bottomAnchor, constant: -60).isActive = true
         
         nameLabel?.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
+        nameLabel?.font = .preferredFont(forTextStyle: .largeTitle)
     }
-
-
 }
 
