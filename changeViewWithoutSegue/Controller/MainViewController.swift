@@ -36,7 +36,7 @@ class MainViewController: UIViewController {
     @IBAction private func touchUpDescriptionButton(_ sender: Any) {
         let tableStoryboad = UIStoryboard(name: "SecondStoryboard", bundle: nil)
         let tableViewController = tableStoryboad.instantiateViewController(withIdentifier: "Table")
-        
+
         self.navigationController?.pushViewController(tableViewController, animated: true)
     }
 }

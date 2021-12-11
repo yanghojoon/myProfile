@@ -15,6 +15,9 @@
 		DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311327644ED500674EAB /* LaunchScreen.storyboard */; };
 		DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */; };
 		DE89312227645FC500674EAB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312127645FC500674EAB /* TableViewController.swift */; };
+		DE8931272764684200674EAB /* Description.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8931262764684200674EAB /* Description.storyboard */; };
+		DE89312B2764688200674EAB /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312A2764688200674EAB /* DescriptionViewController.swift */; };
+		DE89312E27646DAE00674EAB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89312D27646DAE00674EAB /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		DE89311627644ED500674EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		DE89312127645FC500674EAB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DE8931262764684200674EAB /* Description.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Description.storyboard; sourceTree = "<group>"; };
+		DE89312A2764688200674EAB /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		DE89312D27646DAE00674EAB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		DE89310727644ED400674EAB /* changeViewWithoutSegue */ = {
 			isa = PBXGroup;
 			children = (
+				DE89312C27646D9500674EAB /* Model */,
 				DE893125276463F000674EAB /* Controller */,
 				DE893123276463CA00674EAB /* View */,
 				DE89310827644ED400674EAB /* AppDelegate.swift */,
@@ -75,6 +82,7 @@
 			children = (
 				DE89310E27644ED400674EAB /* Main.storyboard */,
 				DE89311C27644FC200674EAB /* SecondStoryboard.storyboard */,
+				DE8931262764684200674EAB /* Description.storyboard */,
 				DE89311327644ED500674EAB /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -85,8 +93,17 @@
 			children = (
 				DE89310C27644ED400674EAB /* MainViewController.swift */,
 				DE89312127645FC500674EAB /* TableViewController.swift */,
+				DE89312A2764688200674EAB /* DescriptionViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE89312C27646D9500674EAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE89312D27646DAE00674EAB /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE89311527644ED500674EAB /* LaunchScreen.storyboard in Resources */,
+				DE8931272764684200674EAB /* Description.storyboard in Resources */,
 				DE89311227644ED500674EAB /* Assets.xcassets in Resources */,
 				DE89311027644ED400674EAB /* Main.storyboard in Resources */,
 				DE89311D27644FC200674EAB /* SecondStoryboard.storyboard in Resources */,
@@ -162,8 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE89310D27644ED400674EAB /* MainViewController.swift in Sources */,
+				DE89312E27646DAE00674EAB /* Profile.swift in Sources */,
 				DE89310927644ED400674EAB /* AppDelegate.swift in Sources */,
 				DE89310B27644ED400674EAB /* SceneDelegate.swift in Sources */,
+				DE89312B2764688200674EAB /* DescriptionViewController.swift in Sources */,
 				DE89312227645FC500674EAB /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
