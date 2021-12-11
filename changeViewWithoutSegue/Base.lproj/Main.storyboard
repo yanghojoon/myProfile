@@ -21,9 +21,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="자세히 보기"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yang Hojoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-rZ-aVJ">
-                                <rect key="frame" x="186" y="327" width="97" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Yang Hojoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-rZ-aVJ">
+                                <rect key="frame" x="159" y="193" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,12 +31,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Grp-rZ-aVJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="748-Ar-bP9"/>
                             <constraint firstItem="JD7-jp-olf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vxd-nM-aVK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0xi-GD-Srf"/>
                     <connections>
                         <outlet property="descriptionButton" destination="JD7-jp-olf" id="wVP-Ev-piI"/>
+                        <outlet property="nameLabel" destination="Grp-rZ-aVJ" id="uV2-Yn-MfH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
