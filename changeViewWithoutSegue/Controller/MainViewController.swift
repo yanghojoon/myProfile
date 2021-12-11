@@ -7,10 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var descriptionButton: UIButton?
-    @IBOutlet weak var nameLabel: UILabel?
+class MainViewController: UIViewController {
+    @IBOutlet private weak var descriptionButton: UIButton?
+    @IBOutlet private weak var nameLabel: UILabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +17,7 @@ class ViewController: UIViewController {
         setupConstraint()
     }
 
-    func setupConstraint() {
+    private func setupConstraint() {
         descriptionButton?.translatesAutoresizingMaskIntoConstraints = false
         nameLabel?.translatesAutoresizingMaskIntoConstraints = false
         
@@ -32,6 +31,13 @@ class ViewController: UIViewController {
         
         nameLabel?.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
         nameLabel?.font = .preferredFont(forTextStyle: .largeTitle)
+    }
+    
+    @IBAction private func touchUpDescriptionButton(_ sender: Any) {
+        let tableStoryboad = UIStoryboard(name: "SecondStoryboard", bundle: nil)
+        let tableViewController = tableStoryboad.instantiateViewController(withIdentifier: "Table")
+        
+        self.navigationController?.pushViewController(tableViewController, animated: true)
     }
 }
 
