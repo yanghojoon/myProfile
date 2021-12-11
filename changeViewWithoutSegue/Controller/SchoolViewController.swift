@@ -12,8 +12,10 @@ class SchoolViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+        setupUI()
     }
     
+    private func setupUI() {
+        nameLabel?.font = .preferredFont(forTextStyle: .largeTitle)
+    }
 }

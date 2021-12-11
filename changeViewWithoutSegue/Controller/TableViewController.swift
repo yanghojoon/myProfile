@@ -49,6 +49,11 @@ extension TableViewController {
             let schoolViewController = schoolStoryboard.instantiateViewController(withIdentifier: "School")
             
             self.navigationController?.pushViewController(schoolViewController, animated: true)
+        } else if selectedProfile == "자기소개" {
+            let schoolStoryboard = UIStoryboard(name: "Introduce", bundle: nil)
+            let schoolViewController = schoolStoryboard.instantiateViewController(withIdentifier: "Introduce")
+            
+            self.navigationController?.pushViewController(schoolViewController, animated: true)
         }
     }
 }
