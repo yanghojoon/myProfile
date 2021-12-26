@@ -5,7 +5,6 @@
 //  Created by 양호준 on 2021/12/26.
 //
 
-import Foundation
 import UIKit
 
 struct JsonParser {
