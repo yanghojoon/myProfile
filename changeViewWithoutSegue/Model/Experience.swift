@@ -10,6 +10,5 @@ import Foundation
 struct Experience: Decodable {
     var name: String
     var duration: String
-    var shortDescription: String
     var description: String
 }

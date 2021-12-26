@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct JsonParser: Decodable {
+struct JsonParser {
     func decode() throws -> [Experience] {
         guard let jsonAsset = NSDataAsset(name: "experienceData") else {
             throw ParsingError.fileNotFound

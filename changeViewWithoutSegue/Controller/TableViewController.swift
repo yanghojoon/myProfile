@@ -50,15 +50,20 @@ extension TableViewController {
             
             self.navigationController?.pushViewController(schoolViewController, animated: true)
         } else if selectedProfile == "자기소개" {
-            let schoolStoryboard = UIStoryboard(name: "Introduce", bundle: nil)
-            let schoolViewController = schoolStoryboard.instantiateViewController(withIdentifier: "Introduce")
+            let introduceStoryboard = UIStoryboard(name: "Introduce", bundle: nil)
+            let introduceViewController = introduceStoryboard.instantiateViewController(withIdentifier: "Introduce")
             
-            self.navigationController?.pushViewController(schoolViewController, animated: true)
+            self.navigationController?.pushViewController(introduceViewController, animated: true)
         } else if selectedProfile == "링크" {
-            let schoolStoryboard = UIStoryboard(name: "Link", bundle: nil)
-            let schoolViewController = schoolStoryboard.instantiateViewController(withIdentifier: "Link")
+            let linkStoryboard = UIStoryboard(name: "Link", bundle: nil)
+            let linkViewController = linkStoryboard.instantiateViewController(withIdentifier: "Link")
             
-            self.navigationController?.pushViewController(schoolViewController, animated: true)
+            self.navigationController?.pushViewController(linkViewController, animated: true)
+        } else if selectedProfile == "경력" {
+            let experienceStoryboard = UIStoryboard(name: "Experience", bundle: nil)
+            let experienceViewController = experienceStoryboard.instantiateViewController(withIdentifier: "Experience")
+            
+            self.navigationController?.pushViewController(experienceViewController, animated: true)
         }
     }
 }
