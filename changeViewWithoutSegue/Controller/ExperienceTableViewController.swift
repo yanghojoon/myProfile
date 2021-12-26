@@ -54,4 +54,17 @@ class ExperienceTableViewController: UITableViewController {
             print(error)
         }
     }
+    
+    // MARK: - Table view delegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let experience = self.experienceLists[indexPath.row]
+        
+        let experienceDetailStoryBoard = UIStoryboard(name: "ExperienceDetail", bundle: nil)
+        
+        let experienceDetailViewController = experienceDetailStoryBoard.instantiateViewController(identifier: "ExperienceDetail") { coder in
+            ExperienceDetailTableViewController(coder: coder, experience: experience)
+        }
+        
+        navigationController?.pushViewController(experienceDetailViewController, animated: true)
+    }
 }
